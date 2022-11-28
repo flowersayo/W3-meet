@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/*아래 폰트*/
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./assets/fonts/NotoSansKR-Black.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "NotoSansKR-Bold";
+  src: url("./assets/fonts/NotoSansKR-Bold.otf") format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "NotoSansKR-Light";
+  src: url("./assets/fonts/NotoSansKR-Light.otf") format("opentype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "NotoSansKR-Medium";
+  src: url("./assets/fonts/NotoSansKR-Medium.otf") format("opentype");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "NotoSansKR-Regular"; /*본고딕*/
+  src: url("./assets/fonts/NotoSansKR-Regular.otf") format("opentype");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "NotoSansKR-Thin";
+  src: url("./assets/fonts/NotoSansKR-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("./assets/fonts/NotoSans-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("./assets/fonts/NotoSans-Regular.ttf") format("opentype");
 }
