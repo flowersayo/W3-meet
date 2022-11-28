@@ -5,4 +5,14 @@ import WhatPage from "./MainPage/WhatPage/WhatPage";
 import WhenPage from "./MainPage/WhenPage/WhenPage";
 import WhyPage from "./MainPage/WhyPage/WhyPage";
 import MainPage from "./MainPage/MainPage";
-export { MainPage,LoginPage, RegisterPage, LandingPage, WhatPage, WhenPage, WhyPage };
+import UserHomePage from "./MainPage/UserHomePage/UserHomePage";
+export {
+  MainPage,
+  LoginPage,
+  RegisterPage,
+  LandingPage,
+  WhatPage,
+  WhenPage,
+  WhyPage,
+  UserHomePage,
+};

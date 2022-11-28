@@ -5,28 +5,22 @@
 #root {
   --background: #fffbf2;
   --main: #396eb0;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --border: #d3cec4;
+  --w100: #95979d; /*상단 NavBar*/
 }
 
 html {
-  font-size: calc(6.25% * 0.9); /*1rem = 0.7px 이 되도록 맞춤*/
+  font-size: calc(6.25% * 0.8); /*1rem = 0.7px 이 되도록 맞춤*/
 }
 
 input::placeholder {
   font-family: "NotoSansKR-Medium";
-  color: var(--b500);
+  color: black;
 }
 
 body {
   margin: 0;
+  height: 100%;
   font-size: 14px;
   font-family: "NotoSansKR";
   -webkit-font-smoothing: antialiased;
