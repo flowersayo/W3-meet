@@ -5,6 +5,8 @@ import WhatPage from "./WhatPage/WhatPage";
 import WhyPage from "./WhyPage/WhyPage";
 import WhenPage from "./WhenPage/WhenPage";
 import UserHomePage from "./UserHomePage/UserHomePage";
+import NotificationPage from "./UserHomePage/NotificationPage";
+import BookMarkPage from "./UserHomePage/BookMarkPage";
 import styled from "styled-components";
 import { NavBar } from "../../components";
 export default function MainPage() {
@@ -18,6 +20,8 @@ export default function MainPage() {
           <Route path="why" element={<WhyPage />} />
           <Route path="when" element={<WhenPage />} />
           <Route path="home" element={<UserHomePage />} />
+          <Route path="bookmark" element={<BookMarkPage />} />
+          <Route path="notifications" element={<NotificationPage />} />
         </Routes>
       </InnerBox>
     </Wrapper>

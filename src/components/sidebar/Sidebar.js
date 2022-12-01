@@ -1,11 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
+import SizedBox from "../common/SizedBox";
+import Menu from "./Menu";
+import Logo from "./Logo";
+import HomeSrc from "../../assets/icons/home.svg";
+
 export default function Sidebar() {
   return (
     <Container>
-      Sidebar
-      <Link to="./home">home</Link>
+      <Logo />
+      <SizedBox height={50} />
+
+      <Menu />
     </Container>
   );
 }
@@ -16,4 +23,6 @@ const Container = styled.div`
   width: 400rem;
   background-color: var(--main);
   height: 100vh;
+  padding: 20rem;
+  padding-top: 30rem;
 `;
