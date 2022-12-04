@@ -5,3 +5,6 @@ export { default as Left } from "./icons/arrow-left.svg";
 export { default as Right } from "./icons/arrow-right.svg";
 export { default as Calendar } from "./icons/calendar.svg";
 export { default as Logo } from "./icons/logo.svg";
+export { default as Down } from "./icons/chevron-down.svg";
+export { default as Up } from "./icons/chevron-up.svg";
+export { default as Plus } from "./icons/plus-square.svg";

@@ -33,6 +33,7 @@ const H1 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 const H2 = styled.text`
@@ -41,6 +42,7 @@ const H2 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 const H3 = styled.text`
@@ -49,6 +51,7 @@ const H3 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 const H4 = styled.text`
@@ -57,6 +60,7 @@ const H4 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 const H5 = styled.text`
@@ -65,6 +69,7 @@ const H5 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 const H6 = styled.text`
@@ -73,6 +78,7 @@ const H6 = styled.text`
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+  color: ${({ color }) => (color ? color : "black")};
 `;
 
 export { Regular, Medium, Thin, H1, H2, H3, H4, H5, H6 };
